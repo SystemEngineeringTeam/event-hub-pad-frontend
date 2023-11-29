@@ -1,0 +1,33 @@
+.header {
+  position: fixed;
+  background-color: var(--orange);
+  height: 72px;
+  width: 100%;
+
+  .container {
+    display: flex;
+    height: 100%;
+    padding: 0 60px;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: var(--font-weight-important);
+
+    & h1 {
+      font-size: var(--font-size-header);
+      color: var(--font-color-white);
+    }
+
+    .iconButtonContainer {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+
+      .circle {
+        width: 48px;
+        height: 48px;
+        background-color: var(--white);
+        border-radius: 50%;
+      }
+    }
+  }
+}

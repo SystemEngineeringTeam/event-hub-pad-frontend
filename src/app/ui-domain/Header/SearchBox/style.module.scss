@@ -1,0 +1,17 @@
+.textBox {
+  width: 100%;
+  padding: 8px 48px;
+  border: 1px solid var(--gray);
+  border-radius: 5px;
+  font-size: 1em;
+  line-height: 1.5;
+  background-color: var(--white);
+
+  &:focus {
+    outline: 1px solid var(--blue);
+  }
+
+  &::placeholder {
+    color: var(--font-color-gray);
+  }
+}
