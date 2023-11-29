@@ -10,7 +10,9 @@
     margin-right: 50px;
 
     & p {
+      color: var(--font-color-black);
       font-size: 12px;
+      font-weight: var(--font-weight-normal);
     }
   }
 
