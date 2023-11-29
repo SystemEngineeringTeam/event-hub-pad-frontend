@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+
+  .circleContainer {
+    align-items: center;
+
+    .circle {
+      width: 16px;
+      height: 16px;
+      background-color: var(--blue);
+      border-radius: 50%;
+    }
+  }
+
+  .todoContainer {
+    display: flex;
+    gap: 20px;
+
+    .eventText {
+      font-size: 12px;
+      color: var(--font-color-gray);
+      font-weight: var(--font-weight-important);
+    }
+
+    .todoText {
+      font-size: 16px;
+      color: var(--font-color-black);
+      font-weight: var(--font-weight-important);
+    }
+  }
+}

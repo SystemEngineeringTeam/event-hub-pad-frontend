@@ -1,7 +1,4 @@
 {
-  "env": {
-    "jest/globals": true
-  },
   "rules": {
     "operator-linebreak": ["error", "after"],
     "no-unused-vars": "off",
@@ -48,12 +45,7 @@
       "error",
       80,
       { "ignoreTemplateLiterals": true, "ignoreStrings": true }
-    ],
-    "jest/no-disabled-tests": "warn",
-    "jest/no-focused-tests": "error",
-    "jest/no-identical-title": "error",
-    "jest/prefer-to-have-length": "warn",
-    "jest/valid-expect": "error"
+    ]
   },
   "extends": ["next/core-web-vitals", "airbnb-base"],
   "plugins": ["unused-imports", "import"]
