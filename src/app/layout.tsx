@@ -1,5 +1,10 @@
+import { ChakraProvider } from '@chakra-ui/react';
 import { Inter } from 'next/font/google';
 import React from 'react';
+
+import styles from './layout.module.scss';
+import { Header } from './ui-domain/Header';
+import { SideMenu } from './ui-domain/SideMenu';
 
 import type { Metadata } from 'next';
 
@@ -23,8 +28,16 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="ja">
+      <body className={inter.className}>
+        <ChakraProvider cssVarsRoot="body">
+          <Header />
+          <div className={styles.sideMenuContainer}>
+            <SideMenu />
+          </div>
+          <main className={styles.childrenContainer}>{children}</main>
+        </ChakraProvider>
+      </body>
     </html>
   );
 }
