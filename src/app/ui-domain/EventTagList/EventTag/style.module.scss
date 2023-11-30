@@ -1,0 +1,15 @@
+.container {
+  width: 72px;
+  height: 32px;
+  border-radius: 5px;
+  background-color: #fc8181;
+  text-align: center;
+  align-items: center;
+
+  & p {
+    color: var(--font-color-white);
+    font-size: 16px;
+    line-height: 32px;
+    font-weight: var(--font-weight-important);
+  }
+}
