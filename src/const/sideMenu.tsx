@@ -1,6 +1,6 @@
 import { SideMenuItem } from '@/types/sideMenu';
 
-export const SideMenuItems: Array<SideMenuItem> = [
+export const SideMenuItems: SideMenuItem[] = [
   {
     name: 'トップページ',
     icon: (
