@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  gap: 20px;
+  justify-content: space-between;
+
+  .dividerContainer {
+    width: 2px;
+    background-color: var(--divider-color);
+  }
+
+  .menuContainer {
+    width: 50%;
+    margin-left: 24px;
+    margin-top: 16px;
+  }
+}
