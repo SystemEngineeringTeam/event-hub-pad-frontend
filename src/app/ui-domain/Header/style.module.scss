@@ -1,13 +1,13 @@
 .header {
   position: fixed;
-  background-color: var(--orange);
+  padding: 0 60px;
   height: 72px;
   width: 100%;
+  background-color: var(--orange);
 
   .container {
     display: flex;
     height: 100%;
-    padding: 0 60px;
     align-items: center;
     justify-content: space-between;
     font-weight: var(--font-weight-important);
