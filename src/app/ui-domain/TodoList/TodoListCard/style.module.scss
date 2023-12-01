@@ -1,0 +1,27 @@
+.container {
+  width: 16%;
+  min-height: 80vh;
+  border: 6px solid var(--gray);
+  border-radius: 10px;
+
+  .colorContainer {
+    height: 30px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+    background-color: #fc8181;
+  }
+
+  .wrapper {
+    padding: 20px;
+  }
+
+  .titleContainer {
+    .title {
+      font-size: 24px;
+      font-weight: var(--font-weight-normal);
+    }
+  }
+
+  .cardContainer {
+  }
+}
