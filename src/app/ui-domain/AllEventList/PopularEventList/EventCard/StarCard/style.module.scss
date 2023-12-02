@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 2px 8px;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  border-radius: 2px;
+  background-color: var(--orange);
+
+  & div {
+    font-size: 12px;
+    color: var(--font-color-white);
+    font-weight: var(--font-weight-important);
+  }
+}
