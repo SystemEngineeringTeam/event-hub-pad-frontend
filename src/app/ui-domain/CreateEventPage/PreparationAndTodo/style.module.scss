@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  padding: 16px;
+  gap: 20px;
+  justify-content: space-between;
+
+  .dividerContainer {
+    width: 2px;
+    background-color: var(--divider-color);
+  }
+
+  .menuContainer {
+    width: 50%;
+  }
+}
