@@ -1,0 +1,25 @@
+.container {
+  min-height: 100vh;
+
+  .itemContainer {
+    margin-left: 24px;
+    margin-right: 24px;
+    margin-top: 36px;
+
+    .eventTagContainer {
+      position: relative;
+    }
+
+    .menuContainer {
+      & p {
+        color: var(--font-color-black);
+        font-size: 12px;
+        font-weight: var(--font-weight-normal);
+      }
+    }
+
+    .buttonContainer {
+      margin: 0 auto;
+    }
+  }
+}
