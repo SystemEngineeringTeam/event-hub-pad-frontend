@@ -7,7 +7,7 @@ type Props = {
   title: string;
 };
 
-export function TodoCard({ id, title }: Props) {
+export function TodoCard({ title }: Props) {
   return (
     <div className={styles.container}>
       <div className={styles.wrapper}>

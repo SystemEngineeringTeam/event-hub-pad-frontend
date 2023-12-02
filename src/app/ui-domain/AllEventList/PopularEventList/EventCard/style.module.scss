@@ -1,0 +1,41 @@
+.container {
+  position: relative;
+
+  .starContainer {
+    position: absolute;
+    top: 6px;
+    right: 0;
+  }
+
+  .cardContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    border-radius: 10px;
+    background-color: var(--white);
+    gap: 8px;
+
+    & h3 {
+      font-size: 18px;
+      font-weight: var(--font-weight-important);
+    }
+
+    & p {
+      font-size: 14px;
+      color: var(--font-color-gray);
+      font-weight: var(--font-weight-normal);
+    }
+
+    .peopleAndSpentTimeAndTagContainer {
+      display: flex;
+      justify-content: center;
+      justify-content: space-between;
+
+      .tagContainer {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: var(--sm);
+      }
+    }
+  }
+}

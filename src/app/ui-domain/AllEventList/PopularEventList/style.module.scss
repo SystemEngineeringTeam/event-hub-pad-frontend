@@ -1,0 +1,15 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 44px 36px;
+
+  margin: 0 auto;
+  background-color: var(--blue);
+  border-radius: 10px;
+
+  .populationTodoList {
+    display: flex;
+    gap: 20px;
+  }
+}
