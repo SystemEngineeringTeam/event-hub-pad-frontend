@@ -7,7 +7,7 @@ import styles from './style.module.scss';
 
 export function PreparationList() {
   return (
-    <>
+    <div className={styles.container}>
       <p className={styles.title}>準備する物</p>
       <div className={styles.itemContainer}>
         <VStack spacing="30px" align="stretch">
@@ -20,6 +20,6 @@ export function PreparationList() {
           ))}
         </VStack>
       </div>
-    </>
+    </div>
   );
 }
