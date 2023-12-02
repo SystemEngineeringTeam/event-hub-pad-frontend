@@ -12,7 +12,12 @@ export function MenuList() {
       <div className={styles.itemContainer}>
         <VStack spacing="30px" align="stretch">
           {SideMenuItems.map((item) => (
-            <MenuItem key={item.name} name={item.name} icon={item.icon} />
+            <MenuItem
+              key={item.name}
+              name={item.name}
+              path={item.path}
+              icon={item.icon}
+            />
           ))}
         </VStack>
       </div>
