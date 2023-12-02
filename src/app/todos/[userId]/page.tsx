@@ -1,5 +1,6 @@
+import { TodoList } from '@/app/ui-domain/TodoList';
+
 import styles from './style.module.scss';
-import { TodoList } from '../../ui-domain/TodoList';
 
 export default function Home() {
   return (
