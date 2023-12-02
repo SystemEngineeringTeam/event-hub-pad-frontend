@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  gap: 12px;
+
+  .square {
+    width: 24px;
+    height: 24px;
+    background-color: var(--blue);
+  }
+
+  .text {
+    width: 90%;
+    font-size: 18px;
+    color: var(--font-color-black);
+    font-weight: var(--font-weight-normal);
+  }
+}

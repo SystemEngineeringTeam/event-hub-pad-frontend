@@ -1,21 +1,20 @@
 import { VStack } from '@chakra-ui/react';
 
-import { SideMenuItems } from '@/const/sideMenu';
+import { SideMenuEventInputs } from '@/const/eventSideMenu';
 
-import { MenuItem } from './MenuItem';
+import { EventInformationInput } from './EventInformationInput';
 import styles from './style.module.scss';
 
-export function MenuList() {
+export function EventInformationList() {
   return (
     <>
-      <p>メニュー</p>
       <div className={styles.itemContainer}>
         <VStack spacing="30px" align="stretch">
-          {SideMenuItems.map((item) => (
-            <MenuItem
+          {SideMenuEventInputs.map((item) => (
+            <EventInformationInput
               key={item.name}
               name={item.name}
-              path={item.path}
+              unit={item.unit}
               icon={item.icon}
             />
           ))}

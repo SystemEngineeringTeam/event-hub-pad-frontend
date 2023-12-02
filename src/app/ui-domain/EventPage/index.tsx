@@ -26,7 +26,7 @@ export function EventPage() {
         <div>
           <Divider />
         </div>
-        <div className={styles.otherCOntainer}>
+        <div className={styles.otherContainer}>
           <OtherContent />
         </div>
       </VStack>
