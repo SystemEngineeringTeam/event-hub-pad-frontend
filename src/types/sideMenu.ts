@@ -6,6 +6,11 @@ export type SideMenuItem = {
   icon: ReactNode;
 };
 
+export type SideMenuTodoItem = {
+  name: string;
+  icon: ReactNode;
+};
+
 export type EventMenu = {
   name: string;
   unit: string;

@@ -1,6 +1,6 @@
-import { EventMenu, SideMenuItem } from '@/types/sideMenu';
+import { EventMenu, SideMenuTodoItem } from '@/types/sideMenu';
 
-export const EventSideMenuItem: SideMenuItem[] = [
+export const EventSideMenuItem: SideMenuTodoItem[] = [
   {
     name: '2023/05/01',
     icon: (
