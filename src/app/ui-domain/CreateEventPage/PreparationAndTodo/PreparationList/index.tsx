@@ -12,7 +12,7 @@ export function PreparationList() {
       <p className={styles.title}>準備する物</p>
       <InputContainer />
       <div className={styles.itemContainer}>
-        <VStack spacing="30px" align="stretch">
+        <VStack spacing="32px" align="stretch">
           {PREPARATION.map((item) => (
             <PreparationItem
               key={item.name}
