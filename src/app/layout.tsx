@@ -31,7 +31,9 @@ export default function RootLayout({
     <html lang="ja">
       <body className={inter.className}>
         <ChakraProvider cssVarsRoot="body">
-          <Header />
+          <div className={styles.headerContainer}>
+            <Header />
+          </div>
           <div className={styles.sideMenuContainer}>
             <SideMenu />
           </div>

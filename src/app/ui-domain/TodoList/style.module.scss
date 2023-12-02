@@ -1,0 +1,17 @@
+.titleContainer {
+  .title {
+    font-size: 24px;
+    color: var(--font-color-black);
+    font-weight: var(--font-weight-important);
+  }
+}
+
+.scrollContainer {
+  overflow: auto;
+
+  .todoListContainer {
+    display: flex;
+    width: 120%;
+    gap: 24px;
+  }
+}
