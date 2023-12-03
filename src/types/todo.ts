@@ -1,7 +1,16 @@
 export type Todo = {
-  id: string;
-  event: string;
+  id: number;
   title: string;
+};
+
+export type TodoAll = {
+  todoall: [
+    {
+      id: number;
+      title: string;
+      todos: Todo[];
+    },
+  ];
 };
 
 export type ListTodo = {
